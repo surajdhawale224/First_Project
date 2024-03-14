@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>First Project</title>
+    <head>
+        <script>
+            let a = "This is String";
+            const b = 45;
+            console.log(a,b);
+
+            function hello()
+            {
+                console.log("Hello Suraj Function");
+            }
+            let obj = {
+                r: 34,
+                m: 78,
+                func: function Print(number) 
+                {
+                    console.log("The Number is "+number);
+                }
+            }
+            document.addEventListener("click", function click()
+            {
+                console.log("clicked");
+                //alert("Hello");
+                let conf = confirm("Are you Sure");
+                console.log(conf);
+                if(conf==true)
+                {
+                    console.log("Successfull")
+                }else
+                {
+                    console.log("Unsuccessfull")
+                }
+            })
+            
+        </script>
+    </head>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="left_panel">
+                    <h3>An inspiring design delivered to <br>
+                        your inbox every morning</h3>
+                    <p>Our team scouts the internet for the best designs,<br> 
+                            illustrations and art and delivers a truly inspiring<br>
+                             one every day to your inbox</p>
+                    <p class="second_para"> show me how it looks</p>
+                    <div class="fields">
+                        <input type="text" id="email" placeholder="Your e-mail address" required>
+                        <button type="submit">Register Now</button>
+                    </div>
+                    <p class="whitetxt"> Free -No Spam -No Data Sharing</p>
+                    
+            </div>
+            <div class="image">
+                <img class="man_image" src="Vector.png" alt="Man Image">
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="footerdiv1">
+            <p>Prompt Generator</p>
+            <p>Dweep Daily</p>
+            <p>All Contributors</p>
+            <p>Your data on Dweep.io</p>
+            <p>Contribute to Dweep</p>
+        </div>
+        <div class="footerdiv2">
+            <p>Dweep.io</p>
+            <p>Made with love in india</p>
+            <a href="https://www.linkedin.com/"><img src="LinkedinLogo.png" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="InstagramLogo.png" alt="Instagram"></a>
+            <p>hello@dweep.io</p>
+        </div>
+    </footer>
+</body>
+</html>
